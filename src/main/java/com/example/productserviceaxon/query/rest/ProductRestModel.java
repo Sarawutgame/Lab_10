@@ -1,4 +1,4 @@
-package com.example.productserviceaxon.event;
+package com.example.productserviceaxon.query.rest;
 
 
 import lombok.Data;
@@ -6,7 +6,8 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 @Data
-public class ProductCreatedEvent {
+public class ProductRestModel {
+
     private String productId;
     private String title;
     private BigDecimal price;
